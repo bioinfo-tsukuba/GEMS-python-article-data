@@ -1,0 +1,22 @@
+[
+    {
+        "experiment_id": "HEK_Experiment_0",
+        "cell_plate_id": "5c6cb371-868c-4129-9459-7b531da53f45"
+    },
+    {
+        "experiment_id": "HEK_Experiment_1",
+        "cell_plate_id": "255b08a3-1697-482f-bae8-7670a57067a9"
+    },
+    {
+        "experiment_id": "HEK_Experiment_2",
+        "cell_plate_id": "5aa9e127-fc3d-4845-9d97-9b3a1cab4c86"
+    },
+    {
+        "experiment_id": "HEK_Experiment_3",
+        "cell_plate_id": "47994560-362c-4c55-9095-f2df10edf7cf"
+    },
+    {
+        "experiment_id": "HEK_Experiment_4",
+        "cell_plate_id": "e4297fef-8ed1-4a10-afef-c741ccc6ba20"
+    }
+]

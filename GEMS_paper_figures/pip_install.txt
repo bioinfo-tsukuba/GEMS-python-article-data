@@ -1,0 +1,1 @@
+pip install matplotlib pandas numpy polars scipy

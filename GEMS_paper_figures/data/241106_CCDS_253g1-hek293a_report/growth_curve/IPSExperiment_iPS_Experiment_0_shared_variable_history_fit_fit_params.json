@@ -1,0 +1,10 @@
+{
+    "k": 1.0,
+    "r": 0.0005095887112754253,
+    "n0": [
+        0.0026641544171720215,
+        6.792930797619131e-05,
+        0.0002628489129862655
+    ],
+    "csv_path": "data/241106_CCDS_253g1-hek293a_report/growth_curve/IPSExperiment_iPS_Experiment_0_shared_variable_history_fit_fit_params_fit.csv"
+}

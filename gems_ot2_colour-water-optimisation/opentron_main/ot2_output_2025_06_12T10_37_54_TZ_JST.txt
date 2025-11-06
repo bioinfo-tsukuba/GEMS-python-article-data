@@ -1,0 +1,935 @@
+/data/robot_settings.json not found. Loading defaults
+Failed to initialize character device, will not be able to control gpios (lights, button, smoothiekill, smoothie reset). Only one connection can be made to the gpios at a time. If you need to control gpios, first stop the robot server with systemctl stop opentrons-robot-server. Until you restart the server with systemctl start opentrons-robot-server, you will be unable to control the robot using the Opentrons app.
+Out of bounds move: X=(418.00000000000006 motor controller, 417.13622131803675 deck) too high for limit 418.0
+Out of bounds move: X=(418.00000000000006 motor controller, 417.13622131803675 deck) too high for limit 418.0
+[[66.66666666666657, 20.0, 20.011989413064, 20.000000000000004, 20.00149200057576, 160.0, 19.999999999999982, 107.14636985814717], [66.66666666666671, 60.905127242446376, 20.00256185361422, 97.45677016437487, 20.00149200057576, 20.0, 159.99999999999991, 46.426815070926416], [66.66666666666673, 119.09487275755362, 159.98544873332176, 82.54322983562514, 159.99701599884847, 20.0, 20.000000000000124, 46.426815070926416]]
+ Transferring 160.0 from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to F5 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from A1 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 160.0 uL from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 160.0 uL into F5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 160.0 from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to F6 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from B1 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 160.0 uL from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 160.0 uL into F6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 160.0 from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to F7 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from C1 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 160.0 uL from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 160.0 uL into F7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 160.0 from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to F8 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from D1 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 160.0 uL from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 160.0 uL into F8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 159.99999999999991 from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to G5 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from E1 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 159.99999999999991 uL from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 159.99999999999991 uL into G5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 159.99999999999991 from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to G6 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from F1 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 159.99999999999991 uL from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 159.99999999999991 uL into G6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 159.99999999999991 from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to G7 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from G1 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 159.99999999999991 uL from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 159.99999999999991 uL into G7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 159.99999999999991 from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to G8 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from H1 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 159.99999999999991 uL from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 159.99999999999991 uL into G8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 159.99701599884847 from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to E5 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from A2 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 159.99701599884847 uL from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 159.99701599884847 uL into E5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 159.99701599884847 from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to E6 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from B2 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 159.99701599884847 uL from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 159.99701599884847 uL into E6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 159.99701599884847 from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to E7 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from C2 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 159.99701599884847 uL from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 159.99701599884847 uL into E7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 159.99701599884847 from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to E8 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from D2 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 159.99701599884847 uL from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 159.99701599884847 uL into E8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 159.98544873332176 from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to C5 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from E2 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 159.98544873332176 uL from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 159.98544873332176 uL into C5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 159.98544873332176 from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to C6 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from F2 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 159.98544873332176 uL from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 159.98544873332176 uL into C6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 159.98544873332176 from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to C7 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from G2 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 159.98544873332176 uL from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 159.98544873332176 uL into C7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 159.98544873332176 from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to C8 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from H2 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 159.98544873332176 uL from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 159.98544873332176 uL into C8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 119.09487275755362 from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to B5 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from A3 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 119.09487275755362 uL from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 119.09487275755362 uL into B5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 119.09487275755362 from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to B6 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from B3 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 119.09487275755362 uL from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 119.09487275755362 uL into B6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 119.09487275755362 from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to B7 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from C3 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 119.09487275755362 uL from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 119.09487275755362 uL into B7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 119.09487275755362 from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to B8 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from D3 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 119.09487275755362 uL from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 119.09487275755362 uL into B8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 107.14636985814717 from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to H5 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from E3 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 107.14636985814717 uL from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 107.14636985814717 uL into H5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 107.14636985814717 from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to H6 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from F3 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 107.14636985814717 uL from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 107.14636985814717 uL into H6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 107.14636985814717 from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to H7 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from G3 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 107.14636985814717 uL from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 107.14636985814717 uL into H7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 107.14636985814717 from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to H8 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from H3 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 107.14636985814717 uL from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 107.14636985814717 uL into H8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 97.45677016437487 from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to D5 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from A4 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 97.45677016437487 uL from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 97.45677016437487 uL into D5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 97.45677016437487 from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to D6 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from B4 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 97.45677016437487 uL from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 97.45677016437487 uL into D6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 97.45677016437487 from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to D7 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from C4 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 97.45677016437487 uL from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 97.45677016437487 uL into D7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 97.45677016437487 from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to D8 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from D4 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 97.45677016437487 uL from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 97.45677016437487 uL into D8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 82.54322983562514 from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to D5 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from E4 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 82.54322983562514 uL from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 82.54322983562514 uL into D5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 87.71109314793739 ul
+		 Aspirating 87.71109314793739 uL from D5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 87.71109314793739 uL into D5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 87.71109314793739 uL from D5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 87.71109314793739 uL into D5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 87.71109314793739 uL from D5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 87.71109314793739 uL into D5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 82.54322983562514 from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to D6 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from F4 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 82.54322983562514 uL from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 82.54322983562514 uL into D6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 87.71109314793739 ul
+		 Aspirating 87.71109314793739 uL from D6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 87.71109314793739 uL into D6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 87.71109314793739 uL from D6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 87.71109314793739 uL into D6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 87.71109314793739 uL from D6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 87.71109314793739 uL into D6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 82.54322983562514 from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to D7 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from G4 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 82.54322983562514 uL from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 82.54322983562514 uL into D7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 87.71109314793739 ul
+		 Aspirating 87.71109314793739 uL from D7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 87.71109314793739 uL into D7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 87.71109314793739 uL from D7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 87.71109314793739 uL into D7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 87.71109314793739 uL from D7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 87.71109314793739 uL into D7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 82.54322983562514 from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to D8 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from H4 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 82.54322983562514 uL from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 82.54322983562514 uL into D8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 87.71109314793739 ul
+		 Aspirating 87.71109314793739 uL from D8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 87.71109314793739 uL into D8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 87.71109314793739 uL from D8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 87.71109314793739 uL into D8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 87.71109314793739 uL from D8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 87.71109314793739 uL into D8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 66.66666666666673 from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to A5 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from A5 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 66.66666666666673 uL from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 66.66666666666673 uL into A5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 66.66666666666673 from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to A6 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from B5 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 66.66666666666673 uL from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 66.66666666666673 uL into A6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 66.66666666666673 from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to A7 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from C5 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 66.66666666666673 uL from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 66.66666666666673 uL into A7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 66.66666666666673 from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to A8 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from D5 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 66.66666666666673 uL from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 66.66666666666673 uL into A8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 66.66666666666671 from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to A5 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from E5 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 66.66666666666671 uL from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 66.66666666666671 uL into A5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 60.00000000000006 ul
+		 Aspirating 60.00000000000006 uL from A5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 60.00000000000006 uL into A5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 60.00000000000006 uL from A5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 60.00000000000006 uL into A5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 60.00000000000006 uL from A5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 60.00000000000006 uL into A5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 66.66666666666671 from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to A6 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from F5 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 66.66666666666671 uL from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 66.66666666666671 uL into A6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 60.00000000000006 ul
+		 Aspirating 60.00000000000006 uL from A6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 60.00000000000006 uL into A6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 60.00000000000006 uL from A6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 60.00000000000006 uL into A6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 60.00000000000006 uL from A6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 60.00000000000006 uL into A6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 66.66666666666671 from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to A7 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from G5 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 66.66666666666671 uL from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 66.66666666666671 uL into A7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 60.00000000000006 ul
+		 Aspirating 60.00000000000006 uL from A7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 60.00000000000006 uL into A7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 60.00000000000006 uL from A7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 60.00000000000006 uL into A7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 60.00000000000006 uL from A7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 60.00000000000006 uL into A7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 66.66666666666671 from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to A8 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from H5 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 66.66666666666671 uL from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 66.66666666666671 uL into A8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 60.00000000000006 ul
+		 Aspirating 60.00000000000006 uL from A8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 60.00000000000006 uL into A8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 60.00000000000006 uL from A8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 60.00000000000006 uL into A8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 60.00000000000006 uL from A8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 60.00000000000006 uL into A8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 66.66666666666657 from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to A5 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from A6 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 66.66666666666657 uL from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 66.66666666666657 uL into A5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 120.00000000000009 ul
+		 Aspirating 120.00000000000009 uL from A5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 120.00000000000009 uL into A5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 120.00000000000009 uL from A5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 120.00000000000009 uL into A5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 120.00000000000009 uL from A5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 120.00000000000009 uL into A5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 66.66666666666657 from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to A6 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from B6 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 66.66666666666657 uL from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 66.66666666666657 uL into A6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 120.00000000000009 ul
+		 Aspirating 120.00000000000009 uL from A6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 120.00000000000009 uL into A6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 120.00000000000009 uL from A6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 120.00000000000009 uL into A6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 120.00000000000009 uL from A6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 120.00000000000009 uL into A6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 66.66666666666657 from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to A7 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from C6 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 66.66666666666657 uL from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 66.66666666666657 uL into A7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 120.00000000000009 ul
+		 Aspirating 120.00000000000009 uL from A7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 120.00000000000009 uL into A7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 120.00000000000009 uL from A7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 120.00000000000009 uL into A7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 120.00000000000009 uL from A7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 120.00000000000009 uL into A7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 66.66666666666657 from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to A8 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from D6 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 66.66666666666657 uL from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 66.66666666666657 uL into A8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 120.00000000000009 ul
+		 Aspirating 120.00000000000009 uL from A8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 120.00000000000009 uL into A8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 120.00000000000009 uL from A8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 120.00000000000009 uL into A8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 120.00000000000009 uL from A8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 120.00000000000009 uL into A8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 60.905127242446376 from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to B5 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from E6 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 60.905127242446376 uL from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 60.905127242446376 uL into B5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 107.18538548179826 ul
+		 Aspirating 107.18538548179826 uL from B5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 107.18538548179826 uL into B5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 107.18538548179826 uL from B5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 107.18538548179826 uL into B5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 107.18538548179826 uL from B5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 107.18538548179826 uL into B5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 60.905127242446376 from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to B6 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from F6 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 60.905127242446376 uL from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 60.905127242446376 uL into B6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 107.18538548179826 ul
+		 Aspirating 107.18538548179826 uL from B6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 107.18538548179826 uL into B6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 107.18538548179826 uL from B6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 107.18538548179826 uL into B6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 107.18538548179826 uL from B6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 107.18538548179826 uL into B6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 60.905127242446376 from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to B7 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from G6 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 60.905127242446376 uL from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 60.905127242446376 uL into B7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 107.18538548179826 ul
+		 Aspirating 107.18538548179826 uL from B7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 107.18538548179826 uL into B7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 107.18538548179826 uL from B7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 107.18538548179826 uL into B7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 107.18538548179826 uL from B7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 107.18538548179826 uL into B7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 60.905127242446376 from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to B8 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from H6 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 60.905127242446376 uL from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 60.905127242446376 uL into B8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 107.18538548179826 ul
+		 Aspirating 107.18538548179826 uL from B8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 107.18538548179826 uL into B8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 107.18538548179826 uL from B8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 107.18538548179826 uL into B8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 107.18538548179826 uL from B8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 107.18538548179826 uL into B8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 46.426815070926416 from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to H5 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from A7 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 46.426815070926416 uL from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 46.426815070926416 uL into H5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 96.43173287233245 ul
+		 Aspirating 96.43173287233245 uL from H5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 96.43173287233245 uL into H5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 96.43173287233245 uL from H5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 96.43173287233245 uL into H5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 96.43173287233245 uL from H5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 96.43173287233245 uL into H5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 46.426815070926416 from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to H6 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from B7 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 46.426815070926416 uL from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 46.426815070926416 uL into H6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 96.43173287233245 ul
+		 Aspirating 96.43173287233245 uL from H6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 96.43173287233245 uL into H6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 96.43173287233245 uL from H6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 96.43173287233245 uL into H6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 96.43173287233245 uL from H6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 96.43173287233245 uL into H6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 46.426815070926416 from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to H7 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from C7 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 46.426815070926416 uL from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 46.426815070926416 uL into H7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 96.43173287233245 ul
+		 Aspirating 96.43173287233245 uL from H7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 96.43173287233245 uL into H7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 96.43173287233245 uL from H7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 96.43173287233245 uL into H7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 96.43173287233245 uL from H7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 96.43173287233245 uL into H7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 46.426815070926416 from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to H8 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from D7 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 46.426815070926416 uL from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 46.426815070926416 uL into H8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 96.43173287233245 ul
+		 Aspirating 96.43173287233245 uL from H8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 96.43173287233245 uL into H8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 96.43173287233245 uL from H8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 96.43173287233245 uL into H8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 96.43173287233245 uL from H8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 96.43173287233245 uL into H8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 46.426815070926416 from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to H5 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from E7 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 46.426815070926416 uL from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 46.426815070926416 uL into H5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 138.21586643616624 ul
+		 Aspirating 138.21586643616624 uL from H5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 138.21586643616624 uL into H5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 138.21586643616624 uL from H5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 138.21586643616624 uL into H5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 138.21586643616624 uL from H5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 138.21586643616624 uL into H5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 46.426815070926416 from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to H6 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from F7 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 46.426815070926416 uL from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 46.426815070926416 uL into H6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 138.21586643616624 ul
+		 Aspirating 138.21586643616624 uL from H6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 138.21586643616624 uL into H6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 138.21586643616624 uL from H6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 138.21586643616624 uL into H6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 138.21586643616624 uL from H6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 138.21586643616624 uL into H6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 46.426815070926416 from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to H7 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from G7 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 46.426815070926416 uL from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 46.426815070926416 uL into H7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 138.21586643616624 ul
+		 Aspirating 138.21586643616624 uL from H7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 138.21586643616624 uL into H7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 138.21586643616624 uL from H7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 138.21586643616624 uL into H7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 138.21586643616624 uL from H7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 138.21586643616624 uL into H7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 46.426815070926416 from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to H8 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from H7 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 46.426815070926416 uL from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 46.426815070926416 uL into H8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 138.21586643616624 ul
+		 Aspirating 138.21586643616624 uL from H8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 138.21586643616624 uL into H8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 138.21586643616624 uL from H8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 138.21586643616624 uL into H8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 138.21586643616624 uL from H8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 138.21586643616624 uL into H8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 20.011989413064 from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to C5 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from A8 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 20.011989413064 uL from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 20.011989413064 uL into C5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 143.98690385998958 ul
+		 Aspirating 143.98690385998958 uL from C5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 143.98690385998958 uL into C5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 143.98690385998958 uL from C5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 143.98690385998958 uL into C5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 143.98690385998958 uL from C5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 143.98690385998958 uL into C5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 20.011989413064 from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to C6 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from B8 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 20.011989413064 uL from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 20.011989413064 uL into C6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 143.98690385998958 ul
+		 Aspirating 143.98690385998958 uL from C6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 143.98690385998958 uL into C6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 143.98690385998958 uL from C6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 143.98690385998958 uL into C6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 143.98690385998958 uL from C6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 143.98690385998958 uL into C6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 20.011989413064 from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to C7 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from C8 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 20.011989413064 uL from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 20.011989413064 uL into C7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 143.98690385998958 ul
+		 Aspirating 143.98690385998958 uL from C7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 143.98690385998958 uL into C7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 143.98690385998958 uL from C7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 143.98690385998958 uL into C7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 143.98690385998958 uL from C7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 143.98690385998958 uL into C7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 20.011989413064 from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to C8 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from D8 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 20.011989413064 uL from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 20.011989413064 uL into C8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 143.98690385998958 ul
+		 Aspirating 143.98690385998958 uL from C8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 143.98690385998958 uL into C8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 143.98690385998958 uL from C8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 143.98690385998958 uL into C8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 143.98690385998958 uL from C8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 143.98690385998958 uL into C8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 20.00256185361422 from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to C5 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from E8 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 20.00256185361422 uL from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 20.00256185361422 uL into C5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 161.9976943317472 ul
+		 Aspirating 161.9976943317472 uL from C5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 161.9976943317472 uL into C5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 161.9976943317472 uL from C5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 161.9976943317472 uL into C5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 161.9976943317472 uL from C5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 161.9976943317472 uL into C5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 20.00256185361422 from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to C6 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from F8 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 20.00256185361422 uL from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 20.00256185361422 uL into C6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 161.9976943317472 ul
+		 Aspirating 161.9976943317472 uL from C6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 161.9976943317472 uL into C6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 161.9976943317472 uL from C6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 161.9976943317472 uL into C6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 161.9976943317472 uL from C6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 161.9976943317472 uL into C6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 20.00256185361422 from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to C7 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from G8 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 20.00256185361422 uL from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 20.00256185361422 uL into C7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 161.9976943317472 ul
+		 Aspirating 161.9976943317472 uL from C7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 161.9976943317472 uL into C7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 161.9976943317472 uL from C7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 161.9976943317472 uL into C7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 161.9976943317472 uL from C7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 161.9976943317472 uL into C7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 20.00256185361422 from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to C8 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from H8 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 20.00256185361422 uL from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 20.00256185361422 uL into C8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 161.9976943317472 ul
+		 Aspirating 161.9976943317472 uL from C8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 161.9976943317472 uL into C8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 161.9976943317472 uL from C8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 161.9976943317472 uL into C8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 161.9976943317472 uL from C8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 161.9976943317472 uL into C8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 20.00149200057576 from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to E5 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from A9 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 20.00149200057576 uL from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 20.00149200057576 uL into E5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 143.99731439896362 ul
+		 Aspirating 143.99731439896362 uL from E5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 143.99731439896362 uL into E5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 143.99731439896362 uL from E5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 143.99731439896362 uL into E5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 143.99731439896362 uL from E5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 143.99731439896362 uL into E5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 20.00149200057576 from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to E6 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from B9 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 20.00149200057576 uL from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 20.00149200057576 uL into E6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 143.99731439896362 ul
+		 Aspirating 143.99731439896362 uL from E6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 143.99731439896362 uL into E6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 143.99731439896362 uL from E6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 143.99731439896362 uL into E6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 143.99731439896362 uL from E6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 143.99731439896362 uL into E6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 20.00149200057576 from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to E7 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from C9 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 20.00149200057576 uL from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 20.00149200057576 uL into E7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 143.99731439896362 ul
+		 Aspirating 143.99731439896362 uL from E7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 143.99731439896362 uL into E7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 143.99731439896362 uL from E7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 143.99731439896362 uL into E7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 143.99731439896362 uL from E7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 143.99731439896362 uL into E7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 20.00149200057576 from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to E8 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from D9 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 20.00149200057576 uL from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 20.00149200057576 uL into E8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 143.99731439896362 ul
+		 Aspirating 143.99731439896362 uL from E8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 143.99731439896362 uL into E8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 143.99731439896362 uL from E8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 143.99731439896362 uL into E8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 143.99731439896362 uL from E8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 143.99731439896362 uL into E8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 20.00149200057576 from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to E5 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from E9 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 20.00149200057576 uL from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 20.00149200057576 uL into E5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 161.9986571994818 ul
+		 Aspirating 161.9986571994818 uL from E5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 161.9986571994818 uL into E5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 161.9986571994818 uL from E5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 161.9986571994818 uL into E5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 161.9986571994818 uL from E5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 161.9986571994818 uL into E5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 20.00149200057576 from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to E6 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from F9 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 20.00149200057576 uL from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 20.00149200057576 uL into E6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 161.9986571994818 ul
+		 Aspirating 161.9986571994818 uL from E6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 161.9986571994818 uL into E6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 161.9986571994818 uL from E6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 161.9986571994818 uL into E6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 161.9986571994818 uL from E6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 161.9986571994818 uL into E6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 20.00149200057576 from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to E7 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from G9 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 20.00149200057576 uL from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 20.00149200057576 uL into E7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 161.9986571994818 ul
+		 Aspirating 161.9986571994818 uL from E7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 161.9986571994818 uL into E7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 161.9986571994818 uL from E7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 161.9986571994818 uL into E7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 161.9986571994818 uL from E7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 161.9986571994818 uL into E7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 20.00149200057576 from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to E8 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from H9 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 20.00149200057576 uL from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 20.00149200057576 uL into E8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 161.9986571994818 ul
+		 Aspirating 161.9986571994818 uL from E8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 161.9986571994818 uL into E8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 161.9986571994818 uL from E8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 161.9986571994818 uL into E8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 161.9986571994818 uL from E8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 161.9986571994818 uL into E8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 20.000000000000124 from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to G5 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from A10 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 20.000000000000124 uL from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 20.000000000000124 uL into G5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 143.99999999999991 ul
+		 Aspirating 143.99999999999991 uL from G5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 143.99999999999991 uL into G5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 143.99999999999991 uL from G5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 143.99999999999991 uL into G5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 143.99999999999991 uL from G5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 143.99999999999991 uL into G5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 20.000000000000124 from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to G6 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from B10 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 20.000000000000124 uL from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 20.000000000000124 uL into G6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 143.99999999999991 ul
+		 Aspirating 143.99999999999991 uL from G6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 143.99999999999991 uL into G6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 143.99999999999991 uL from G6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 143.99999999999991 uL into G6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 143.99999999999991 uL from G6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 143.99999999999991 uL into G6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 20.000000000000124 from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to G7 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from C10 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 20.000000000000124 uL from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 20.000000000000124 uL into G7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 143.99999999999991 ul
+		 Aspirating 143.99999999999991 uL from G7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 143.99999999999991 uL into G7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 143.99999999999991 uL from G7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 143.99999999999991 uL into G7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 143.99999999999991 uL from G7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 143.99999999999991 uL into G7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 20.000000000000124 from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to G8 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from D10 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 20.000000000000124 uL from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 20.000000000000124 uL into G8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 143.99999999999991 ul
+		 Aspirating 143.99999999999991 uL from G8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 143.99999999999991 uL into G8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 143.99999999999991 uL from G8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 143.99999999999991 uL into G8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 143.99999999999991 uL from G8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 143.99999999999991 uL into G8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 20.000000000000004 from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to D5 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from E10 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 20.000000000000004 uL from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 20.000000000000004 uL into D5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 162.0 ul
+		 Aspirating 162.0 uL from D5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 162.0 uL into D5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 162.0 uL from D5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 162.0 uL into D5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 162.0 uL from D5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 162.0 uL into D5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 20.000000000000004 from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to D6 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from F10 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 20.000000000000004 uL from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 20.000000000000004 uL into D6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 162.0 ul
+		 Aspirating 162.0 uL from D6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 162.0 uL into D6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 162.0 uL from D6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 162.0 uL into D6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 162.0 uL from D6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 162.0 uL into D6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 20.000000000000004 from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to D7 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from G10 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 20.000000000000004 uL from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 20.000000000000004 uL into D7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 162.0 ul
+		 Aspirating 162.0 uL from D7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 162.0 uL into D7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 162.0 uL from D7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 162.0 uL into D7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 162.0 uL from D7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 162.0 uL into D7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 20.000000000000004 from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to D8 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from H10 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 20.000000000000004 uL from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 20.000000000000004 uL into D8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 162.0 ul
+		 Aspirating 162.0 uL from D8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 162.0 uL into D8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 162.0 uL from D8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 162.0 uL into D8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 162.0 uL from D8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 162.0 uL into D8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 20.0 from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to B5 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from A11 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 20.0 uL from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 20.0 uL into B5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 162.0 ul
+		 Aspirating 162.0 uL from B5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 162.0 uL into B5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 162.0 uL from B5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 162.0 uL into B5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 162.0 uL from B5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 162.0 uL into B5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 20.0 from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to B6 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from B11 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 20.0 uL from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 20.0 uL into B6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 162.0 ul
+		 Aspirating 162.0 uL from B6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 162.0 uL into B6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 162.0 uL from B6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 162.0 uL into B6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 162.0 uL from B6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 162.0 uL into B6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 20.0 from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to B7 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from C11 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 20.0 uL from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 20.0 uL into B7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 162.0 ul
+		 Aspirating 162.0 uL from B7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 162.0 uL into B7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 162.0 uL from B7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 162.0 uL into B7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 162.0 uL from B7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 162.0 uL into B7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 20.0 from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to B8 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from D11 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 20.0 uL from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 20.0 uL into B8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 162.0 ul
+		 Aspirating 162.0 uL from B8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 162.0 uL into B8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 162.0 uL from B8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 162.0 uL into B8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 162.0 uL from B8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 162.0 uL into B8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 20.0 from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to F5 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from E11 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 20.0 uL from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 20.0 uL into F5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 144.0 ul
+		 Aspirating 144.0 uL from F5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 144.0 uL into F5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 144.0 uL from F5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 144.0 uL into F5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 144.0 uL from F5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 144.0 uL into F5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 20.0 from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to F6 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from F11 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 20.0 uL from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 20.0 uL into F6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 144.0 ul
+		 Aspirating 144.0 uL from F6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 144.0 uL into F6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 144.0 uL from F6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 144.0 uL into F6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 144.0 uL from F6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 144.0 uL into F6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 20.0 from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to F7 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from G11 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 20.0 uL from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 20.0 uL into F7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 144.0 ul
+		 Aspirating 144.0 uL from F7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 144.0 uL into F7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 144.0 uL from F7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 144.0 uL into F7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 144.0 uL from F7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 144.0 uL into F7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 20.0 from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to F8 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from H11 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 20.0 uL from A2 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 20.0 uL into F8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 144.0 ul
+		 Aspirating 144.0 uL from F8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 144.0 uL into F8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 144.0 uL from F8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 144.0 uL into F8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 144.0 uL from F8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 144.0 uL into F8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 20.0 from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to F5 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from A12 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 20.0 uL from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 20.0 uL into F5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 162.0 ul
+		 Aspirating 162.0 uL from F5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 162.0 uL into F5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 162.0 uL from F5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 162.0 uL into F5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 162.0 uL from F5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 162.0 uL into F5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 20.0 from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to F6 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from B12 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 20.0 uL from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 20.0 uL into F6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 162.0 ul
+		 Aspirating 162.0 uL from F6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 162.0 uL into F6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 162.0 uL from F6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 162.0 uL into F6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 162.0 uL from F6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 162.0 uL into F6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 20.0 from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to F7 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from C12 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 20.0 uL from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 20.0 uL into F7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 162.0 ul
+		 Aspirating 162.0 uL from F7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 162.0 uL into F7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 162.0 uL from F7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 162.0 uL into F7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 162.0 uL from F7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 162.0 uL into F7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 20.0 from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to F8 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from D12 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 20.0 uL from A3 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 20.0 uL into F8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 162.0 ul
+		 Aspirating 162.0 uL from F8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 162.0 uL into F8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 162.0 uL from F8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 162.0 uL into F8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 162.0 uL from F8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 162.0 uL into F8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 19.999999999999982 from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to G5 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from E12 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 19.999999999999982 uL from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 19.999999999999982 uL into G5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 162.00000000000003 ul
+		 Aspirating 162.00000000000003 uL from G5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 162.00000000000003 uL into G5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 162.00000000000003 uL from G5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 162.00000000000003 uL into G5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 162.00000000000003 uL from G5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 162.00000000000003 uL into G5 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 19.999999999999982 from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to G6 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from F12 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 19.999999999999982 uL from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 19.999999999999982 uL into G6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 162.00000000000003 ul
+		 Aspirating 162.00000000000003 uL from G6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 162.00000000000003 uL into G6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 162.00000000000003 uL from G6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 162.00000000000003 uL into G6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 162.00000000000003 uL from G6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 162.00000000000003 uL into G6 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 19.999999999999982 from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to G7 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from G12 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 19.999999999999982 uL from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 19.999999999999982 uL into G7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 162.00000000000003 ul
+		 Aspirating 162.00000000000003 uL from G7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 162.00000000000003 uL into G7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 162.00000000000003 uL from G7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 162.00000000000003 uL into G7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 162.00000000000003 uL from G7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 162.00000000000003 uL into G7 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+ Transferring 19.999999999999982 from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 to G8 of Corning 96 Well Plate 360 µL Flat on slot 1
+	 Picking up tip from H12 of Opentrons OT-2 96 Tip Rack 300 µL on slot 8
+	 Aspirating 19.999999999999982 uL from A1 of Opentrons 6 Tube Rack with Falcon 50 mL Conical on slot 2 at 100.0 uL/sec
+	 Dispensing 19.999999999999982 uL into G8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Mixing 3 times with a volume of 162.00000000000003 ul
+		 Aspirating 162.00000000000003 uL from G8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 162.00000000000003 uL into G8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 162.00000000000003 uL from G8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 162.00000000000003 uL into G8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Aspirating 162.00000000000003 uL from G8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+		 Dispensing 162.00000000000003 uL into G8 of Corning 96 Well Plate 360 µL Flat on slot 1 at 100.0 uL/sec
+	 Dropping tip into A1 of Opentrons Fixed Trash on slot 12
+Out of bounds move: X=(418.00000000000006 motor controller, 417.13622131803675 deck) too high for limit 418.0
+Out of bounds move: X=(418.00000000000006 motor controller, 417.13622131803675 deck) too high for limit 418.0

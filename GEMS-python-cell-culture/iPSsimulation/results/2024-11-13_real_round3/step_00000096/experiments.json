@@ -1,0 +1,844 @@
+{
+    "experiments": [
+        {
+            "experiment_name": "LabwareRefillExperiment",
+            "states": [
+                {
+                    "_class": "LabwareRefillsetting.LabwareRefillState"
+                }
+            ],
+            "current_state_name": "LabwareRefillState",
+            "shared_variable_history": "{\"columns\":[{\"name\":\"operation\",\"datatype\":\"String\",\"bit_settings\":\"\",\"values\":[\"LabwareRefill\",\"LabwareRefill\",\"LabwareRefill\",\"LabwareRefill\",\"LabwareRefill\"]},{\"name\":\"time\",\"datatype\":\"Int64\",\"bit_settings\":\"\",\"values\":[28859549,28859584,28860900,28862340,28864037]}]}",
+            "current_task_group": {
+                "optimal_start_time": 28858020,
+                "penalty_type": {
+                    "penalty_coefficient": 100000
+                },
+                "tasks": [
+                    {
+                        "processing_time": 0,
+                        "experiment_operation": "LabwareRefill",
+                        "interval": 0,
+                        "completed": false,
+                        "scheduled_time": null,
+                        "task_id": 0
+                    },
+                    {
+                        "processing_time": 120,
+                        "experiment_operation": "LabwareRefill",
+                        "interval": 1440,
+                        "completed": false,
+                        "scheduled_time": null,
+                        "task_id": 1
+                    },
+                    {
+                        "processing_time": 120,
+                        "experiment_operation": "LabwareRefill",
+                        "interval": 1320,
+                        "completed": false,
+                        "scheduled_time": null,
+                        "task_id": 2
+                    },
+                    {
+                        "processing_time": 120,
+                        "experiment_operation": "LabwareRefill",
+                        "interval": 1320,
+                        "completed": false,
+                        "scheduled_time": null,
+                        "task_id": 3
+                    },
+                    {
+                        "processing_time": 120,
+                        "experiment_operation": "LabwareRefill",
+                        "interval": 1320,
+                        "completed": false,
+                        "scheduled_time": null,
+                        "task_id": 4
+                    },
+                    {
+                        "processing_time": 120,
+                        "experiment_operation": "LabwareRefill",
+                        "interval": 1320,
+                        "completed": false,
+                        "scheduled_time": null,
+                        "task_id": 5
+                    },
+                    {
+                        "processing_time": 120,
+                        "experiment_operation": "LabwareRefill",
+                        "interval": 1320,
+                        "completed": false,
+                        "scheduled_time": null,
+                        "task_id": 6
+                    },
+                    {
+                        "processing_time": 120,
+                        "experiment_operation": "LabwareRefill",
+                        "interval": 1320,
+                        "completed": false,
+                        "scheduled_time": null,
+                        "task_id": 7
+                    },
+                    {
+                        "processing_time": 120,
+                        "experiment_operation": "LabwareRefill",
+                        "interval": 1320,
+                        "completed": false,
+                        "scheduled_time": null,
+                        "task_id": 8
+                    },
+                    {
+                        "processing_time": 120,
+                        "experiment_operation": "LabwareRefill",
+                        "interval": 1320,
+                        "completed": false,
+                        "scheduled_time": null,
+                        "task_id": 9
+                    },
+                    {
+                        "processing_time": 120,
+                        "experiment_operation": "LabwareRefill",
+                        "interval": 1320,
+                        "completed": false,
+                        "scheduled_time": null,
+                        "task_id": 10
+                    },
+                    {
+                        "processing_time": 120,
+                        "experiment_operation": "LabwareRefill",
+                        "interval": 1320,
+                        "completed": false,
+                        "scheduled_time": null,
+                        "task_id": 11
+                    },
+                    {
+                        "processing_time": 120,
+                        "experiment_operation": "LabwareRefill",
+                        "interval": 1320,
+                        "completed": false,
+                        "scheduled_time": null,
+                        "task_id": 12
+                    },
+                    {
+                        "processing_time": 120,
+                        "experiment_operation": "LabwareRefill",
+                        "interval": 1320,
+                        "completed": false,
+                        "scheduled_time": null,
+                        "task_id": 13
+                    },
+                    {
+                        "processing_time": 120,
+                        "experiment_operation": "LabwareRefill",
+                        "interval": 1320,
+                        "completed": false,
+                        "scheduled_time": null,
+                        "task_id": 14
+                    },
+                    {
+                        "processing_time": 120,
+                        "experiment_operation": "LabwareRefill",
+                        "interval": 1320,
+                        "completed": false,
+                        "scheduled_time": null,
+                        "task_id": 15
+                    },
+                    {
+                        "processing_time": 120,
+                        "experiment_operation": "LabwareRefill",
+                        "interval": 1320,
+                        "completed": false,
+                        "scheduled_time": null,
+                        "task_id": 16
+                    },
+                    {
+                        "processing_time": 120,
+                        "experiment_operation": "LabwareRefill",
+                        "interval": 1320,
+                        "completed": false,
+                        "scheduled_time": null,
+                        "task_id": 17
+                    },
+                    {
+                        "processing_time": 120,
+                        "experiment_operation": "LabwareRefill",
+                        "interval": 1320,
+                        "completed": false,
+                        "scheduled_time": null,
+                        "task_id": 18
+                    },
+                    {
+                        "processing_time": 120,
+                        "experiment_operation": "LabwareRefill",
+                        "interval": 1320,
+                        "completed": false,
+                        "scheduled_time": null,
+                        "task_id": 19
+                    },
+                    {
+                        "processing_time": 120,
+                        "experiment_operation": "LabwareRefill",
+                        "interval": 1320,
+                        "completed": false,
+                        "scheduled_time": null,
+                        "task_id": 20
+                    },
+                    {
+                        "processing_time": 120,
+                        "experiment_operation": "LabwareRefill",
+                        "interval": 1320,
+                        "completed": false,
+                        "scheduled_time": null,
+                        "task_id": 21
+                    },
+                    {
+                        "processing_time": 120,
+                        "experiment_operation": "LabwareRefill",
+                        "interval": 1320,
+                        "completed": false,
+                        "scheduled_time": null,
+                        "task_id": 22
+                    },
+                    {
+                        "processing_time": 120,
+                        "experiment_operation": "LabwareRefill",
+                        "interval": 1320,
+                        "completed": false,
+                        "scheduled_time": null,
+                        "task_id": 23
+                    }
+                ],
+                "status": "NOT_STARTED",
+                "task_group_id": null,
+                "experiment_name": "LabwareRefillExperiment",
+                "experiment_uuid": "129bc253-739b-4d1e-a3d8-e3218b59fafe"
+            },
+            "current_state_index": 0,
+            "experiment_uuid": "129bc253-739b-4d1e-a3d8-e3218b59fafe"
+        },
+        {
+            "experiment_name": "IPSExperiment",
+            "states": [
+                {
+                    "_class": "iPSRestartsetting.ExpireState"
+                },
+                {
+                    "_class": "iPSRestartsetting.PassageState"
+                },
+                {
+                    "_class": "iPSRestartsetting.PassageInitialState"
+                },
+                {
+                    "_class": "iPSRestartsetting.MediumChange1State"
+                },
+                {
+                    "_class": "iPSRestartsetting.MediumChange2State"
+                },
+                {
+                    "_class": "iPSRestartsetting.SamplingState"
+                }
+            ],
+            "current_state_name": "MediumChange2State",
+            "shared_variable_history": "{\"columns\":[{\"name\":\"time\",\"datatype\":\"Int64\",\"bit_settings\":\"\",\"values\":[28857060,28859585,28859664,28859675,28861115,28861386,28862585,28864062,28864074]},{\"name\":\"operation\",\"datatype\":\"String\",\"bit_settings\":\"\",\"values\":[\"Dummy\",\"iPSPlateCoating\",\"iPSGetImage\",\"iPSPassage\",\"iPSGetImage\",\"iPSMediumChange\",\"iPSGetImage\",\"iPSGetImage\",\"iPSMediumChange\"]},{\"name\":\"density\",\"datatype\":\"Float64\",\"bit_settings\":\"\",\"values\":[null,null,0.2591888575250666,null,0.005923797623318943,null,0.008409029588991816,0.016618111727856925,null]}]}",
+            "current_task_group": {
+                "optimal_start_time": 28865514,
+                "penalty_type": {
+                    "penalty_coefficient": 100
+                },
+                "tasks": [
+                    {
+                        "processing_time": 10,
+                        "experiment_operation": "iPSGetImage",
+                        "interval": 0,
+                        "completed": false,
+                        "scheduled_time": 28865514,
+                        "task_id": 0
+                    },
+                    {
+                        "processing_time": 20,
+                        "experiment_operation": "iPSMediumChange",
+                        "interval": 0,
+                        "completed": false,
+                        "scheduled_time": 28865524,
+                        "task_id": 1
+                    }
+                ],
+                "status": "NOT_STARTED",
+                "task_group_id": 10,
+                "experiment_name": "IPSExperiment",
+                "experiment_uuid": "iPS_Experiment_0"
+            },
+            "current_state_index": 4,
+            "experiment_uuid": "iPS_Experiment_0"
+        },
+        {
+            "experiment_name": "IPSExperiment",
+            "states": [
+                {
+                    "_class": "iPSRestartsetting.ExpireState"
+                },
+                {
+                    "_class": "iPSRestartsetting.PassageState"
+                },
+                {
+                    "_class": "iPSRestartsetting.PassageInitialState"
+                },
+                {
+                    "_class": "iPSRestartsetting.MediumChange1State"
+                },
+                {
+                    "_class": "iPSRestartsetting.MediumChange2State"
+                },
+                {
+                    "_class": "iPSRestartsetting.SamplingState"
+                }
+            ],
+            "current_state_name": "MediumChange2State",
+            "shared_variable_history": "{\"columns\":[{\"name\":\"time\",\"datatype\":\"Int64\",\"bit_settings\":\"\",\"values\":[28856940,28859752,28859831,28859842,28861402,28861414,28862871,28864311,28864322]},{\"name\":\"operation\",\"datatype\":\"String\",\"bit_settings\":\"\",\"values\":[\"Dummy\",\"iPSPlateCoating\",\"iPSGetImage\",\"iPSPassage\",\"iPSGetImage\",\"iPSMediumChange\",\"iPSGetImage\",\"iPSGetImage\",\"iPSMediumChange\"]},{\"name\":\"density\",\"datatype\":\"Float64\",\"bit_settings\":\"\",\"values\":[null,null,0.3243578570873756,null,0.0057844488170935345,null,0.007369042582372878,0.012759450627872919,null]}]}",
+            "current_task_group": {
+                "optimal_start_time": 28865762,
+                "penalty_type": {
+                    "penalty_coefficient": 100
+                },
+                "tasks": [
+                    {
+                        "processing_time": 10,
+                        "experiment_operation": "iPSGetImage",
+                        "interval": 0,
+                        "completed": false,
+                        "scheduled_time": 28865762,
+                        "task_id": 0
+                    },
+                    {
+                        "processing_time": 20,
+                        "experiment_operation": "iPSMediumChange",
+                        "interval": 0,
+                        "completed": false,
+                        "scheduled_time": 28865772,
+                        "task_id": 1
+                    }
+                ],
+                "status": "NOT_STARTED",
+                "task_group_id": 10,
+                "experiment_name": "IPSExperiment",
+                "experiment_uuid": "iPS_Experiment_1"
+            },
+            "current_state_index": 4,
+            "experiment_uuid": "iPS_Experiment_1"
+        },
+        {
+            "experiment_name": "IPSExperiment",
+            "states": [
+                {
+                    "_class": "iPSRestartsetting.ExpireState"
+                },
+                {
+                    "_class": "iPSRestartsetting.PassageState"
+                },
+                {
+                    "_class": "iPSRestartsetting.PassageInitialState"
+                },
+                {
+                    "_class": "iPSRestartsetting.MediumChange1State"
+                },
+                {
+                    "_class": "iPSRestartsetting.MediumChange2State"
+                },
+                {
+                    "_class": "iPSRestartsetting.SamplingState"
+                }
+            ],
+            "current_state_name": "MediumChange2State",
+            "shared_variable_history": "{\"columns\":[{\"name\":\"time\",\"datatype\":\"Int64\",\"bit_settings\":\"\",\"values\":[28856820,28859919,28859998,28860009,28861449,28861461,28862919,28864359,28864371]},{\"name\":\"operation\",\"datatype\":\"String\",\"bit_settings\":\"\",\"values\":[\"Dummy\",\"iPSPlateCoating\",\"iPSGetImage\",\"iPSPassage\",\"iPSGetImage\",\"iPSMediumChange\",\"iPSGetImage\",\"iPSGetImage\",\"iPSMediumChange\"]},{\"name\":\"density\",\"datatype\":\"Float64\",\"bit_settings\":\"\",\"values\":[null,null,0.36883222423083206,null,0.005625451248776225,null,0.004820911739020094,0.006504140704306456,null]}]}",
+            "current_task_group": {
+                "optimal_start_time": 28865811,
+                "penalty_type": {
+                    "penalty_coefficient": 100
+                },
+                "tasks": [
+                    {
+                        "processing_time": 10,
+                        "experiment_operation": "iPSGetImage",
+                        "interval": 0,
+                        "completed": false,
+                        "scheduled_time": 28865811,
+                        "task_id": 0
+                    },
+                    {
+                        "processing_time": 20,
+                        "experiment_operation": "iPSMediumChange",
+                        "interval": 0,
+                        "completed": false,
+                        "scheduled_time": 28865821,
+                        "task_id": 1
+                    }
+                ],
+                "status": "NOT_STARTED",
+                "task_group_id": 10,
+                "experiment_name": "IPSExperiment",
+                "experiment_uuid": "iPS_Experiment_2"
+            },
+            "current_state_index": 4,
+            "experiment_uuid": "iPS_Experiment_2"
+        },
+        {
+            "experiment_name": "IPSExperiment",
+            "states": [
+                {
+                    "_class": "iPSRestartsetting.ExpireState"
+                },
+                {
+                    "_class": "iPSRestartsetting.PassageState"
+                },
+                {
+                    "_class": "iPSRestartsetting.PassageInitialState"
+                },
+                {
+                    "_class": "iPSRestartsetting.MediumChange1State"
+                },
+                {
+                    "_class": "iPSRestartsetting.MediumChange2State"
+                },
+                {
+                    "_class": "iPSRestartsetting.SamplingState"
+                }
+            ],
+            "current_state_name": "MediumChange2State",
+            "shared_variable_history": "{\"columns\":[{\"name\":\"time\",\"datatype\":\"Int64\",\"bit_settings\":\"\",\"values\":[28856700,28860086,28860165,28860176,28861626,28861637,28863094,28865035,28865046]},{\"name\":\"operation\",\"datatype\":\"String\",\"bit_settings\":\"\",\"values\":[\"Dummy\",\"iPSPlateCoating\",\"iPSGetImage\",\"iPSPassage\",\"iPSGetImage\",\"iPSMediumChange\",\"iPSGetImage\",\"iPSGetImage\",\"iPSMediumChange\"]},{\"name\":\"density\",\"datatype\":\"Float64\",\"bit_settings\":\"\",\"values\":[null,null,0.41482260140946026,null,0.005605200484994028,null,0.005479247109149964,0.009305050425164899,null]}]}",
+            "current_task_group": {
+                "optimal_start_time": 28866486,
+                "penalty_type": {
+                    "penalty_coefficient": 100
+                },
+                "tasks": [
+                    {
+                        "processing_time": 10,
+                        "experiment_operation": "iPSGetImage",
+                        "interval": 0,
+                        "completed": false,
+                        "scheduled_time": 28866486,
+                        "task_id": 0
+                    },
+                    {
+                        "processing_time": 20,
+                        "experiment_operation": "iPSMediumChange",
+                        "interval": 0,
+                        "completed": false,
+                        "scheduled_time": 28866496,
+                        "task_id": 1
+                    }
+                ],
+                "status": "NOT_STARTED",
+                "task_group_id": 5,
+                "experiment_name": "IPSExperiment",
+                "experiment_uuid": "iPS_Experiment_3"
+            },
+            "current_state_index": 4,
+            "experiment_uuid": "iPS_Experiment_3"
+        },
+        {
+            "experiment_name": "IPSExperiment",
+            "states": [
+                {
+                    "_class": "iPSRestartsetting.ExpireState"
+                },
+                {
+                    "_class": "iPSRestartsetting.PassageState"
+                },
+                {
+                    "_class": "iPSRestartsetting.PassageInitialState"
+                },
+                {
+                    "_class": "iPSRestartsetting.MediumChange1State"
+                },
+                {
+                    "_class": "iPSRestartsetting.MediumChange2State"
+                },
+                {
+                    "_class": "iPSRestartsetting.SamplingState"
+                }
+            ],
+            "current_state_name": "MediumChange2State",
+            "shared_variable_history": "{\"columns\":[{\"name\":\"time\",\"datatype\":\"Int64\",\"bit_settings\":\"\",\"values\":[28856580,28860253,28860332,28860343,28861783,28861795,28863253,28865062,28865074]},{\"name\":\"operation\",\"datatype\":\"String\",\"bit_settings\":\"\",\"values\":[\"Dummy\",\"iPSPlateCoating\",\"iPSGetImage\",\"iPSPassage\",\"iPSGetImage\",\"iPSMediumChange\",\"iPSGetImage\",\"iPSGetImage\",\"iPSMediumChange\"]},{\"name\":\"density\",\"datatype\":\"Float64\",\"bit_settings\":\"\",\"values\":[null,null,0.524070248826233,null,0.006547695335033121,null,0.007455503166385974,0.013903848144013893,null]}]}",
+            "current_task_group": {
+                "optimal_start_time": 28866514,
+                "penalty_type": {
+                    "penalty_coefficient": 100
+                },
+                "tasks": [
+                    {
+                        "processing_time": 10,
+                        "experiment_operation": "iPSGetImage",
+                        "interval": 0,
+                        "completed": false,
+                        "scheduled_time": 28866516,
+                        "task_id": 0
+                    },
+                    {
+                        "processing_time": 20,
+                        "experiment_operation": "iPSMediumChange",
+                        "interval": 0,
+                        "completed": false,
+                        "scheduled_time": 28866526,
+                        "task_id": 1
+                    }
+                ],
+                "status": "NOT_STARTED",
+                "task_group_id": 5,
+                "experiment_name": "IPSExperiment",
+                "experiment_uuid": "iPS_Experiment_4"
+            },
+            "current_state_index": 4,
+            "experiment_uuid": "iPS_Experiment_4"
+        }
+    ],
+    "parent_dir_path": "iPSsimulation/results/2024-11-13_real_round3",
+    "task_groups": [
+        {
+            "optimal_start_time": 28858020,
+            "penalty_type": {
+                "penalty_coefficient": 100000
+            },
+            "tasks": [
+                {
+                    "processing_time": 0,
+                    "experiment_operation": "LabwareRefill",
+                    "interval": 0,
+                    "completed": true,
+                    "scheduled_time": 28858020,
+                    "task_id": 0
+                },
+                {
+                    "processing_time": 120,
+                    "experiment_operation": "LabwareRefill",
+                    "interval": 1440,
+                    "completed": true,
+                    "scheduled_time": 28859460,
+                    "task_id": 1
+                },
+                {
+                    "processing_time": 120,
+                    "experiment_operation": "LabwareRefill",
+                    "interval": 1320,
+                    "completed": true,
+                    "scheduled_time": 28860900,
+                    "task_id": 2
+                },
+                {
+                    "processing_time": 120,
+                    "experiment_operation": "LabwareRefill",
+                    "interval": 1320,
+                    "completed": true,
+                    "scheduled_time": 28862340,
+                    "task_id": 3
+                },
+                {
+                    "processing_time": 120,
+                    "experiment_operation": "LabwareRefill",
+                    "interval": 1320,
+                    "completed": true,
+                    "scheduled_time": 28863780,
+                    "task_id": 4
+                },
+                {
+                    "processing_time": 120,
+                    "experiment_operation": "LabwareRefill",
+                    "interval": 1320,
+                    "completed": false,
+                    "scheduled_time": 28865220,
+                    "task_id": 5
+                },
+                {
+                    "processing_time": 120,
+                    "experiment_operation": "LabwareRefill",
+                    "interval": 1320,
+                    "completed": false,
+                    "scheduled_time": 28866660,
+                    "task_id": 6
+                },
+                {
+                    "processing_time": 120,
+                    "experiment_operation": "LabwareRefill",
+                    "interval": 1320,
+                    "completed": false,
+                    "scheduled_time": 28868100,
+                    "task_id": 7
+                },
+                {
+                    "processing_time": 120,
+                    "experiment_operation": "LabwareRefill",
+                    "interval": 1320,
+                    "completed": false,
+                    "scheduled_time": 28869540,
+                    "task_id": 8
+                },
+                {
+                    "processing_time": 120,
+                    "experiment_operation": "LabwareRefill",
+                    "interval": 1320,
+                    "completed": false,
+                    "scheduled_time": 28870980,
+                    "task_id": 9
+                },
+                {
+                    "processing_time": 120,
+                    "experiment_operation": "LabwareRefill",
+                    "interval": 1320,
+                    "completed": false,
+                    "scheduled_time": 28872420,
+                    "task_id": 10
+                },
+                {
+                    "processing_time": 120,
+                    "experiment_operation": "LabwareRefill",
+                    "interval": 1320,
+                    "completed": false,
+                    "scheduled_time": 28873860,
+                    "task_id": 11
+                },
+                {
+                    "processing_time": 120,
+                    "experiment_operation": "LabwareRefill",
+                    "interval": 1320,
+                    "completed": false,
+                    "scheduled_time": 28875300,
+                    "task_id": 12
+                },
+                {
+                    "processing_time": 120,
+                    "experiment_operation": "LabwareRefill",
+                    "interval": 1320,
+                    "completed": false,
+                    "scheduled_time": 28876740,
+                    "task_id": 13
+                },
+                {
+                    "processing_time": 120,
+                    "experiment_operation": "LabwareRefill",
+                    "interval": 1320,
+                    "completed": false,
+                    "scheduled_time": 28878180,
+                    "task_id": 14
+                },
+                {
+                    "processing_time": 120,
+                    "experiment_operation": "LabwareRefill",
+                    "interval": 1320,
+                    "completed": false,
+                    "scheduled_time": 28879620,
+                    "task_id": 15
+                },
+                {
+                    "processing_time": 120,
+                    "experiment_operation": "LabwareRefill",
+                    "interval": 1320,
+                    "completed": false,
+                    "scheduled_time": 28881060,
+                    "task_id": 16
+                },
+                {
+                    "processing_time": 120,
+                    "experiment_operation": "LabwareRefill",
+                    "interval": 1320,
+                    "completed": false,
+                    "scheduled_time": 28882500,
+                    "task_id": 17
+                },
+                {
+                    "processing_time": 120,
+                    "experiment_operation": "LabwareRefill",
+                    "interval": 1320,
+                    "completed": false,
+                    "scheduled_time": 28883940,
+                    "task_id": 18
+                },
+                {
+                    "processing_time": 120,
+                    "experiment_operation": "LabwareRefill",
+                    "interval": 1320,
+                    "completed": false,
+                    "scheduled_time": 28885380,
+                    "task_id": 19
+                },
+                {
+                    "processing_time": 120,
+                    "experiment_operation": "LabwareRefill",
+                    "interval": 1320,
+                    "completed": false,
+                    "scheduled_time": 28886820,
+                    "task_id": 20
+                },
+                {
+                    "processing_time": 120,
+                    "experiment_operation": "LabwareRefill",
+                    "interval": 1320,
+                    "completed": false,
+                    "scheduled_time": 28888260,
+                    "task_id": 21
+                },
+                {
+                    "processing_time": 120,
+                    "experiment_operation": "LabwareRefill",
+                    "interval": 1320,
+                    "completed": false,
+                    "scheduled_time": 28889700,
+                    "task_id": 22
+                },
+                {
+                    "processing_time": 120,
+                    "experiment_operation": "LabwareRefill",
+                    "interval": 1320,
+                    "completed": false,
+                    "scheduled_time": 28891140,
+                    "task_id": 23
+                }
+            ],
+            "status": "IN_PROGRESS",
+            "task_group_id": 0,
+            "experiment_name": "LabwareRefillExperiment",
+            "experiment_uuid": "129bc253-739b-4d1e-a3d8-e3218b59fafe"
+        },
+        {
+            "optimal_start_time": 28865514,
+            "penalty_type": {
+                "penalty_coefficient": 100
+            },
+            "tasks": [
+                {
+                    "processing_time": 10,
+                    "experiment_operation": "iPSGetImage",
+                    "interval": 0,
+                    "completed": false,
+                    "scheduled_time": 28865514,
+                    "task_id": 0
+                },
+                {
+                    "processing_time": 20,
+                    "experiment_operation": "iPSMediumChange",
+                    "interval": 0,
+                    "completed": false,
+                    "scheduled_time": 28865524,
+                    "task_id": 1
+                }
+            ],
+            "status": "NOT_STARTED",
+            "task_group_id": 1,
+            "experiment_name": "IPSExperiment",
+            "experiment_uuid": "iPS_Experiment_0"
+        },
+        {
+            "optimal_start_time": 28865762,
+            "penalty_type": {
+                "penalty_coefficient": 100
+            },
+            "tasks": [
+                {
+                    "processing_time": 10,
+                    "experiment_operation": "iPSGetImage",
+                    "interval": 0,
+                    "completed": false,
+                    "scheduled_time": 28865762,
+                    "task_id": 0
+                },
+                {
+                    "processing_time": 20,
+                    "experiment_operation": "iPSMediumChange",
+                    "interval": 0,
+                    "completed": false,
+                    "scheduled_time": 28865772,
+                    "task_id": 1
+                }
+            ],
+            "status": "NOT_STARTED",
+            "task_group_id": 2,
+            "experiment_name": "IPSExperiment",
+            "experiment_uuid": "iPS_Experiment_1"
+        },
+        {
+            "optimal_start_time": 28865811,
+            "penalty_type": {
+                "penalty_coefficient": 100
+            },
+            "tasks": [
+                {
+                    "processing_time": 10,
+                    "experiment_operation": "iPSGetImage",
+                    "interval": 0,
+                    "completed": false,
+                    "scheduled_time": 28865811,
+                    "task_id": 0
+                },
+                {
+                    "processing_time": 20,
+                    "experiment_operation": "iPSMediumChange",
+                    "interval": 0,
+                    "completed": false,
+                    "scheduled_time": 28865821,
+                    "task_id": 1
+                }
+            ],
+            "status": "NOT_STARTED",
+            "task_group_id": 3,
+            "experiment_name": "IPSExperiment",
+            "experiment_uuid": "iPS_Experiment_2"
+        },
+        {
+            "optimal_start_time": 28866486,
+            "penalty_type": {
+                "penalty_coefficient": 100
+            },
+            "tasks": [
+                {
+                    "processing_time": 10,
+                    "experiment_operation": "iPSGetImage",
+                    "interval": 0,
+                    "completed": false,
+                    "scheduled_time": 28866486,
+                    "task_id": 0
+                },
+                {
+                    "processing_time": 20,
+                    "experiment_operation": "iPSMediumChange",
+                    "interval": 0,
+                    "completed": false,
+                    "scheduled_time": 28866496,
+                    "task_id": 1
+                }
+            ],
+            "status": "NOT_STARTED",
+            "task_group_id": 4,
+            "experiment_name": "IPSExperiment",
+            "experiment_uuid": "iPS_Experiment_3"
+        },
+        {
+            "optimal_start_time": 28866514,
+            "penalty_type": {
+                "penalty_coefficient": 100
+            },
+            "tasks": [
+                {
+                    "processing_time": 10,
+                    "experiment_operation": "iPSGetImage",
+                    "interval": 0,
+                    "completed": false,
+                    "scheduled_time": 28866516,
+                    "task_id": 0
+                },
+                {
+                    "processing_time": 20,
+                    "experiment_operation": "iPSMediumChange",
+                    "interval": 0,
+                    "completed": false,
+                    "scheduled_time": 28866526,
+                    "task_id": 1
+                }
+            ],
+            "status": "NOT_STARTED",
+            "task_group_id": 5,
+            "experiment_name": "IPSExperiment",
+            "experiment_uuid": "iPS_Experiment_4"
+        }
+    ],
+    "step": 96,
+    "reference_time": 28865089
+}

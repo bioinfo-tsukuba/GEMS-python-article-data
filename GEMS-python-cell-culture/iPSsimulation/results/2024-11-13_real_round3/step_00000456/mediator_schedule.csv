@@ -1,0 +1,17 @@
+experiment_name,experiment_uuid,task_group_id,task_id,processing_time,experiment_operation,scheduled_time,y_label,end_time
+LabwareRefillExperiment,54326bba-120b-4e49-87fc-693a5bb0f8b5,0,27,120,LabwareRefill,2024-12-14 16:00:00+00:00,LabwareRefillExperiment: 54326bba-120b-4e49-87fc-693a5bb0f8b5,2024-12-14 18:00:00+00:00
+IPSExperiment,iPS_Experiment_4,2,0,10,iPSGetImage,2024-12-15 01:47:00+00:00,IPSExperiment: iPS_Experiment_4,2024-12-15 01:57:00+00:00
+IPSExperiment,iPS_Experiment_4,2,1,20,iPSMediumChange,2024-12-15 01:57:00+00:00,IPSExperiment: iPS_Experiment_4,2024-12-15 02:17:00+00:00
+IPSExperiment,iPS_Experiment_0,1,2,0,iPSWaiting,2024-12-15 11:11:00+00:00,IPSExperiment: iPS_Experiment_0,2024-12-15 11:11:00+00:00
+LabwareRefillExperiment,54326bba-120b-4e49-87fc-693a5bb0f8b5,0,28,120,LabwareRefill,2024-12-15 16:00:00+00:00,LabwareRefillExperiment: 54326bba-120b-4e49-87fc-693a5bb0f8b5,2024-12-15 18:00:00+00:00
+LabwareRefillExperiment,54326bba-120b-4e49-87fc-693a5bb0f8b5,0,29,120,LabwareRefill,2024-12-16 16:00:00+00:00,LabwareRefillExperiment: 54326bba-120b-4e49-87fc-693a5bb0f8b5,2024-12-16 18:00:00+00:00
+LabwareRefillExperiment,54326bba-120b-4e49-87fc-693a5bb0f8b5,0,30,120,LabwareRefill,2024-12-17 16:00:00+00:00,LabwareRefillExperiment: 54326bba-120b-4e49-87fc-693a5bb0f8b5,2024-12-17 18:00:00+00:00
+LabwareRefillExperiment,54326bba-120b-4e49-87fc-693a5bb0f8b5,0,31,120,LabwareRefill,2024-12-18 16:00:00+00:00,LabwareRefillExperiment: 54326bba-120b-4e49-87fc-693a5bb0f8b5,2024-12-18 18:00:00+00:00
+LabwareRefillExperiment,54326bba-120b-4e49-87fc-693a5bb0f8b5,0,32,120,LabwareRefill,2024-12-19 16:00:00+00:00,LabwareRefillExperiment: 54326bba-120b-4e49-87fc-693a5bb0f8b5,2024-12-19 18:00:00+00:00
+LabwareRefillExperiment,54326bba-120b-4e49-87fc-693a5bb0f8b5,0,33,120,LabwareRefill,2024-12-20 16:00:00+00:00,LabwareRefillExperiment: 54326bba-120b-4e49-87fc-693a5bb0f8b5,2024-12-20 18:00:00+00:00
+LabwareRefillExperiment,54326bba-120b-4e49-87fc-693a5bb0f8b5,0,34,120,LabwareRefill,2024-12-21 16:00:00+00:00,LabwareRefillExperiment: 54326bba-120b-4e49-87fc-693a5bb0f8b5,2024-12-21 18:00:00+00:00
+LabwareRefillExperiment,54326bba-120b-4e49-87fc-693a5bb0f8b5,0,35,120,LabwareRefill,2024-12-22 16:00:00+00:00,LabwareRefillExperiment: 54326bba-120b-4e49-87fc-693a5bb0f8b5,2024-12-22 18:00:00+00:00
+LabwareRefillExperiment,54326bba-120b-4e49-87fc-693a5bb0f8b5,0,36,120,LabwareRefill,2024-12-23 16:00:00+00:00,LabwareRefillExperiment: 54326bba-120b-4e49-87fc-693a5bb0f8b5,2024-12-23 18:00:00+00:00
+LabwareRefillExperiment,54326bba-120b-4e49-87fc-693a5bb0f8b5,0,37,120,LabwareRefill,2024-12-24 16:00:00+00:00,LabwareRefillExperiment: 54326bba-120b-4e49-87fc-693a5bb0f8b5,2024-12-24 18:00:00+00:00
+LabwareRefillExperiment,54326bba-120b-4e49-87fc-693a5bb0f8b5,0,38,120,LabwareRefill,2024-12-25 16:00:00+00:00,LabwareRefillExperiment: 54326bba-120b-4e49-87fc-693a5bb0f8b5,2024-12-25 18:00:00+00:00
+LabwareRefillExperiment,54326bba-120b-4e49-87fc-693a5bb0f8b5,0,39,120,LabwareRefill,2024-12-26 16:00:00+00:00,LabwareRefillExperiment: 54326bba-120b-4e49-87fc-693a5bb0f8b5,2024-12-26 18:00:00+00:00

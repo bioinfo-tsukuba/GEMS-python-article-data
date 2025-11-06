@@ -1,0 +1,4 @@
+HEKPassage_0.8 (target: 0.8) mean density: 0.82 ± 0.04 (N=10)
+HEKSampling_0.4 (target: 0.4) mean density: 0.39 ± 0.11 (N=5)
+iPSPassage_0.3 (target: 0.3) mean density: 0.32 ± 0.06 (N=9)
+iPSSampling_0.3 (target: 0.3) mean density: 0.33 ± 0.03 (N=3)

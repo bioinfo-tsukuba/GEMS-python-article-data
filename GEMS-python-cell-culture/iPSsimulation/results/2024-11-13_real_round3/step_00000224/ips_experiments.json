@@ -1,0 +1,27 @@
+[
+    {
+        "experiment_id": "iPS_Experiment_0",
+        "cell_plate_id": "937f6ad6-8fe0-4b75-b7d9-ba47011109c8",
+        "coated_plate_id": null
+    },
+    {
+        "experiment_id": "iPS_Experiment_1",
+        "cell_plate_id": "2bdf5e82-3612-4630-b6cc-71e92ab87842",
+        "coated_plate_id": null
+    },
+    {
+        "experiment_id": "iPS_Experiment_2",
+        "cell_plate_id": "23d56d74-3bcf-442a-80a9-0e472bfe5a03",
+        "coated_plate_id": "287006e1-da9a-4a2b-889f-322135a60319"
+    },
+    {
+        "experiment_id": "iPS_Experiment_3",
+        "cell_plate_id": "5d0b4375-0ebb-4975-a9f0-ace66a1eb131",
+        "coated_plate_id": null
+    },
+    {
+        "experiment_id": "iPS_Experiment_4",
+        "cell_plate_id": "a2bd0a81-63f8-4a6f-8851-2724f8f1bb57",
+        "coated_plate_id": null
+    }
+]

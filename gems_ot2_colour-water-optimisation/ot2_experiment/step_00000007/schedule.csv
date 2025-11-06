@@ -1,0 +1,2 @@
+experiment_name,experiment_uuid,task_group_id,task_id,processing_time,experiment_operation,scheduled_time,task_status
+gen_ot2_cwo_experiment,aa9a0574-ca55-4813-9d25-2a66161e4afd,0,1,5,observation,29161540.0,IN_PROGRESS

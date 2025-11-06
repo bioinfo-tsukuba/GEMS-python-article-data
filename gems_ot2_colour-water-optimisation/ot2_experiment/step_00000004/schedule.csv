@@ -1,0 +1,3 @@
+experiment_name,experiment_uuid,task_group_id,task_id,processing_time,experiment_operation,scheduled_time,task_status
+gen_ot2_cwo_experiment,aa9a0574-ca55-4813-9d25-2a66161e4afd,0,0,60,2025-06-12_09-40-31_JST__52553cc3-aece-4ad3-a469-2d960b20a693_result.csv,29161480.0,NOT_STARTED
+gen_ot2_cwo_experiment,aa9a0574-ca55-4813-9d25-2a66161e4afd,0,1,5,observation,29161540.0,NOT_STARTED

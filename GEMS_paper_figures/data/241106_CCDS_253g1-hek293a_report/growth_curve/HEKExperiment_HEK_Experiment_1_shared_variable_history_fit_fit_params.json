@@ -1,0 +1,10 @@
+{
+    "k": 1.0,
+    "r": 0.0010807180679739993,
+    "n0": [
+        0.1090080352334934,
+        0.10806335621107556,
+        0.036652398462986326
+    ],
+    "csv_path": "data/241106_CCDS_253g1-hek293a_report/growth_curve/HEKExperiment_HEK_Experiment_1_shared_variable_history_fit_fit_params_fit.csv"
+}

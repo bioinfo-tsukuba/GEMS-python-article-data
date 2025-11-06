@@ -1,0 +1,11 @@
+Cell id	Cell type	Finishing type	Carrying in	Carrying out	Abnormal finishing	Reason
+hiPSC_0	hiPSC	Normal	14/11/2024	14/12/2024		
+hiPSC_1	hiPSC	Abnormal	14/11/2024		01/12/2024	Incubator error
+hiPSC_2	hiPSC	Normal	14/11/2024	12/12/2024		
+hiPSC_3	hiPSC	Abnormal	14/11/2024		05/12/2024	Incubator error
+hiPSC_4	hiPSC	Normal	14/11/2024	20/12/2024		
+HEK_0	HEK	Normal	18/11/2024	24/11/2024		
+HEK_1	HEK	Normal	18/11/2024	24/11/2024		
+HEK_2	HEK	Normal	18/11/2024	25/11/2024		
+HEK_3	HEK	Normal	18/11/2024	24/11/2024		
+HEK_4	HEK	Normal	18/11/2024	25/11/2024		

@@ -1,0 +1,1 @@
+source .venv/bin/activate && python -u main.py -t ot_2_template.py -o ot_2_generated.py -r ../samples/ratio.csv -c && deactivate && cd ..
