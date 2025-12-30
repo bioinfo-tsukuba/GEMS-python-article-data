@@ -1,5 +1,7 @@
 import polars as pl
 import matplotlib.pyplot as plt
+from matplotlib.patches import Patch
+
 
 TITLE_FONT_SIZE  = 18
 LABEL_FONT_OPTIONS = {'weight': 'bold', 'size': 10, 'family': 'Helvetica'}
@@ -48,7 +50,10 @@ grouped = (
     .sort(by=["ROUND", "Score"])
 )
 
-print(grouped.head())
+# print(grouped.head())
+# print all without skipping
+for row in grouped.iter_rows():
+    print(row)
 
 # 各ROUND内でScoreの順位を算出（順位が低いほどスコアが低い＝良い）
 grouped = grouped.with_columns(
@@ -69,7 +74,7 @@ unique_rounds = sorted(grouped["ROUND"].unique().to_list())
 n_rounds = len(unique_rounds)
 
 # Score用のx軸最大値（マンハッタン距離の最大値）
-xmax = 255 * 3
+xmax = 200
 
 # 各ROUNDにつき、左：Color比率（積み上げ棒）、右：Scoreランキングの横棒グラフ
 fig, axes = plt.subplots(
@@ -88,6 +93,12 @@ if n_rounds == 1:
 color1 = "#CC4125"
 color2 = "#1155CC"
 color3 = "#F1C232"
+
+legend_handles = [
+    Patch(facecolor=color1, edgecolor="black", label="Acidic red solution"),
+    Patch(facecolor=color2, edgecolor="black", label="Basic clear solution"),
+    Patch(facecolor=color3, edgecolor="black", label="BTB"),
+]
 
 for idx, round_id in enumerate(unique_rounds):
     subdata = grouped.filter(pl.col("ROUND") == round_id)
@@ -108,7 +119,7 @@ for idx, round_id in enumerate(unique_rounds):
     left_third = [p1 + p2 for p1, p2 in zip(perc1, perc2)]
     ax_left.barh(y, perc3, left=left_third, color=color3, edgecolor='black')
     
-    ax_left.set_title(f"ROUND {int(round_id)} - Colour Ratios")
+    ax_left.set_title(f"ROUND {int(round_id)} - Volume Fractions")
     ax_left.set_xlabel("Percentage", **LABEL_FONT_OPTIONS)
     ax_left.set_xlim(0, 100)
     ax_left.set_yticks(y)
@@ -120,6 +131,11 @@ for idx, round_id in enumerate(unique_rounds):
     ax_right = axes[idx][1]
     scores = subdata["Score"].to_list()
     ax_right.barh(y, scores, color="gray", edgecolor='black')
+    
+    # 各ラウンドの最小スコア（最良スコア）に点線を追加
+    min_score = min(scores)
+    ax_right.axvline(x=min_score, color='red', linestyle='--', linewidth=2, alpha=0.8, label=f'Min: {min_score:.1f}')
+    
     ax_right.set_title(f"ROUND {int(round_id)} - Score Ranking")
     ax_right.set_xlabel("Avg Score")
     ax_right.set_xlim(0, xmax)
@@ -127,13 +143,27 @@ for idx, round_id in enumerate(unique_rounds):
     ax_right.set_yticks([])
     ax_right.set_yticklabels([])
     ax_right.grid(axis='x', linestyle='--', alpha=0.7)
+    ax_right.legend(loc='lower right', fontsize=8)
 
 for ax_row in axes:
     for ax in ax_row:
         ax.label_outer()
 
+
+# plt.legend(handlelength=1)
+fig.legend(
+    handles=legend_handles,
+    loc="upper left",
+    ncols=3,
+    frameon=False,
+    bbox_to_anchor=(0.015, 1.00),
+    fontsize=LEGEND_FONT_SIZE,
+    handlelength=1.2
+)
+
+
 # plt.suptitle("Score Ranking and Colour Ratio Composition by ROUND", fontsize=TITLE_FONT_SIZE)
-plt.tight_layout()
+fig.tight_layout(rect=[0, 0, 1, 0.95])
 # plt.savefig("script/CW/score_ranking_with_color_ratio.png", dpi=300)
 SAVE_PATH = "figure/Fig4-F.png"
 plt.savefig(SAVE_PATH, dpi=300)
